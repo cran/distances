@@ -1,5 +1,5 @@
 /* =============================================================================
- * distances -- Distance metric tools for R
+ * distances -- R package with tools for distance metrics
  * https://github.com/fsavje/distances
  *
  * Copyright (C) 2017  Fredrik Savje -- http://fredriksavje.com
@@ -48,10 +48,10 @@ SEXP dist_get_dist_matrix(const SEXP R_distances,
 	                      indices,
 	                      output_dists);
 
-	setAttrib(R_output_dists, install("Size"), ScalarInteger((int) len_indices));
-	setAttrib(R_output_dists, install("Diag"), ScalarLogical(0));
-	setAttrib(R_output_dists, install("Upper"), ScalarLogical(0));
-	setAttrib(R_output_dists, install("method"), mkString("distances package"));
+	setAttrib(R_output_dists, install("Size"), PROTECT(ScalarInteger((int) len_indices)));
+	setAttrib(R_output_dists, install("Diag"), PROTECT(ScalarLogical(0)));
+	setAttrib(R_output_dists, install("Upper"), PROTECT(ScalarLogical(0)));
+	setAttrib(R_output_dists, install("method"), PROTECT(mkString("distances package")));
 	classgets(R_output_dists, mkString("dist"));
 
 	SEXP R_ids = getAttrib(R_distances, install("ids"));
@@ -59,7 +59,7 @@ SEXP dist_get_dist_matrix(const SEXP R_distances,
 		setAttrib(R_output_dists, install("Labels"), get_labels(R_distances, R_indices));
 	}
 
-	UNPROTECT(2);
+	UNPROTECT(6);
 	return R_output_dists;
 }
 
