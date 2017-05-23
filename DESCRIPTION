@@ -1,8 +1,8 @@
 Package: distances
 Type: Package
 Title: Tools for Distance Metrics
-Version: 0.1.1
-Date: 2017-05-21
+Version: 0.1.2
+Date: 2017-05-22
 Authors@R: c(person("Fredrik", "Savje", email = "fredrik.savje@berkeley.edu", role = c("aut", "cre")))
 Description: Provides tools for constructing, manipulating and using distance metrics.
 Depends: R (>= 3.2.3)
@@ -16,8 +16,8 @@ URL: https://github.com/fsavje/distances
 BugReports: https://github.com/fsavje/distances/issues
 Encoding: UTF-8
 RoxygenNote: 6.0.1
-Packaged: 2017-05-21 22:16:19 UTC; fredrik
+Packaged: 2017-05-23 00:50:23 UTC; fredrik
 Author: Fredrik Savje [aut, cre]
 Maintainer: Fredrik Savje <fredrik.savje@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2017-05-21 23:27:16 UTC
+Date/Publication: 2017-05-23 04:31:21 UTC

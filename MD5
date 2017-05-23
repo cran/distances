@@ -1,6 +1,6 @@
-457a9c8c980132591be025f81886507a *DESCRIPTION
+a09b045bd8d4ca6f74a173bface12165 *DESCRIPTION
 f8b09c23c58c53c72ef116515e5c77be *NAMESPACE
-6b43309588d095c721134d848eab7095 *NEWS.md
+f5c5e0afd893961da5bdb2fc8968ae03 *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
 d7f51a803d9c48621fab696ab920bb90 *R/distances.R
@@ -16,7 +16,7 @@ de295f89490fa93333f8fe9cc172a1e9 *README.md
 57bd44e165f5eefa63dda8317ef45bd1 *man/is.distances.Rd
 01a4248bd9914e2263ac1df46ebb6ba2 *man/max_distance_search.Rd
 e07ab57937e69b2c3e326b7578db5b31 *man/nearest_neighbor_search.Rd
-fa893b53f9273aa34208f3bb953b56d9 *src/Makevars
+ebed729751303b3bed88f2e416bf433c *src/Makevars
 ceaa9fc2f1700bde19d8c1965adeec01 *src/distances-init.c
 616e54fe29a45f33991cd0b1fef346b2 *src/error.c
 796e3b9ed80f30bf3a2bf2d2e28a6a49 *src/error.h
@@ -26,7 +26,7 @@ b768791ab95be2cd71dbdc064eb0b3a0 *src/get_dists.h
 62ae2edb74c1b54875897efb5faff0f2 *src/internal.h
 28048af675ad1c475b5329d58d45ca7c *src/libann/Copyright.txt
 79f70597d0617937039107e5a98033ee *src/libann/License.txt
-7718725ae19512452940f45ea1959262 *src/libann/Makefile
+fb8e4f2571e28ad7aa71f96d6e7ca2d5 *src/libann/Makefile
 4ee849ea58de7580379c3bbffaec0ec1 *src/libann/include/ANN/ANN.h
 01e516b35b438e720b5dcf2763c4ab06 *src/libann/include/ANN/ANNperf.h
 02390a8bf15826c45a3828a73c017b47 *src/libann/include/ANN/ANNx.h
@@ -37,7 +37,7 @@ e18365b2dd7d9a0ee7cca1b8d94fe8ee *src/libann/src/bd_search.cpp
 b8d59ae85cf1b9591e279a05d752dc1a *src/libann/src/bd_tree.cpp
 76d2a54c8dc5c0356e945ceb60a3e9fe *src/libann/src/bd_tree.h
 17c58f7ebc260012b27ef3950c41c0c5 *src/libann/src/brute.cpp
-60efcedf716b863e75ce0de960661227 *src/libann/src/kd_dump.cpp
+53e9531d05e4ba8adf6f4c63843c4f3a *src/libann/src/kd_dump.cpp
 7295e904ff9393e85abfc2ed0740be74 *src/libann/src/kd_fix_rad_search.cpp
 55878b078710ca33e3d14a48dd8d79f4 *src/libann/src/kd_fix_rad_search.h
 9691a85561597f58ac5e0ce65259554c *src/libann/src/kd_pr_search.cpp
