@@ -138,6 +138,101 @@ test_that("`as.dist.distances` dispatches correctly", {
 
 
 # ==============================================================================
+# [.distances
+# ==============================================================================
+
+test_distances <- distances(matrix(c(0.1, 0.2, 0.3, 0.1, 0.2, 0.3, 0.1, 0.2, 0.3, 0.3), ncol = 2))
+ref_dist <- as.matrix(dist(matrix(c(0.1, 0.2, 0.3, 0.1, 0.2, 0.3, 0.1, 0.2, 0.3, 0.3), ncol = 2)))
+
+test_that("`[.distances` returns correct output", {
+  expect_equal(`[.distances`(test_distances), ref_dist)
+  expect_equal(`[.distances`(test_distances), ref_dist[])
+  expect_equal(`[.distances`(test_distances, drop = FALSE), ref_dist[drop = FALSE])
+  expect_equal(`[.distances`(test_distances, drop = TRUE), ref_dist[drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 1:3), ref_dist[1:3, ])
+  expect_equal(`[.distances`(test_distances, 1:3, drop = FALSE), ref_dist[1:3, , drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 1:3, drop = TRUE), ref_dist[1:3, , drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, j = 4:5), ref_dist[, 4:5])
+  expect_equal(`[.distances`(test_distances, j = 4:5, drop = FALSE), ref_dist[, 4:5, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, j = 4:5, drop = TRUE), ref_dist[, 4:5, drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 1:3, 4:5), ref_dist[1:3, 4:5])
+  expect_equal(`[.distances`(test_distances, 1:3, 4:5, drop = FALSE), ref_dist[1:3, 4:5, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 1:3, 4:5, drop = TRUE), ref_dist[1:3, 4:5, drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 3), ref_dist[3, ])
+  expect_equal(`[.distances`(test_distances, 3, drop = FALSE), ref_dist[3, , drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 3, drop = TRUE), ref_dist[3, , drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, j = 2), ref_dist[, 2])
+  expect_equal(`[.distances`(test_distances, j = 2, drop = FALSE), ref_dist[, 2, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, j = 2, drop = TRUE), ref_dist[, 2, drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 1:3, 2), ref_dist[1:3, 2])
+  expect_equal(`[.distances`(test_distances, 1:3, 2, drop = FALSE), ref_dist[1:3, 2, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 1:3, 2, drop = TRUE), ref_dist[1:3, 2, drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 3, 4:5), ref_dist[3, 4:5])
+  expect_equal(`[.distances`(test_distances, 3, 4:5, drop = FALSE), ref_dist[3, 4:5, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 3, 4:5, drop = TRUE), ref_dist[3, 4:5, drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 2, 2), ref_dist[2, 2])
+  expect_equal(`[.distances`(test_distances, 2, 2, drop = FALSE), ref_dist[2, 2, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 2, 2, drop = TRUE), ref_dist[2, 2, drop = TRUE])
+
+  expect_equal(`[.distances`(test_distances, 3, 5), ref_dist[3, 5])
+  expect_equal(`[.distances`(test_distances, 3, 5, drop = FALSE), ref_dist[3, 5, drop = FALSE])
+  expect_equal(`[.distances`(test_distances, 3, 5, drop = TRUE), ref_dist[3, 5, drop = TRUE])
+})
+
+test_that("`[.distances` dispatches correctly", {
+  expect_equal(test_distances[], ref_dist)
+  expect_equal(test_distances[], ref_dist[])
+  expect_equal(test_distances[,], ref_dist[])
+  expect_equal(test_distances[, drop = FALSE], ref_dist[drop = FALSE])
+  expect_equal(test_distances[, drop = TRUE], ref_dist[drop = TRUE])
+
+  expect_equal(test_distances[1:3, ], ref_dist[1:3, ])
+  expect_equal(test_distances[1:3, , drop = FALSE], ref_dist[1:3, , drop = FALSE])
+  expect_equal(test_distances[1:3, , drop = TRUE], ref_dist[1:3, , drop = TRUE])
+
+  expect_equal(test_distances[, 4:5], ref_dist[, 4:5])
+  expect_equal(test_distances[, 4:5, drop = FALSE], ref_dist[, 4:5, drop = FALSE])
+  expect_equal(test_distances[, 4:5, drop = TRUE], ref_dist[, 4:5, drop = TRUE])
+
+  expect_equal(test_distances[1:3, 4:5], ref_dist[1:3, 4:5])
+  expect_equal(test_distances[1:3, 4:5, drop = FALSE], ref_dist[1:3, 4:5, drop = FALSE])
+  expect_equal(test_distances[1:3, 4:5, drop = TRUE], ref_dist[1:3, 4:5, drop = TRUE])
+
+  expect_equal(test_distances[3, ], ref_dist[3, ])
+  expect_equal(test_distances[3, , drop = FALSE], ref_dist[3, , drop = FALSE])
+  expect_equal(test_distances[3, , drop = TRUE], ref_dist[3, , drop = TRUE])
+
+  expect_equal(test_distances[, 2], ref_dist[, 2])
+  expect_equal(test_distances[, 2, drop = FALSE], ref_dist[, 2, drop = FALSE])
+  expect_equal(test_distances[, 2, drop = TRUE], ref_dist[, 2, drop = TRUE])
+
+  expect_equal(test_distances[1:3, 2], ref_dist[1:3, 2])
+  expect_equal(test_distances[1:3, 2, drop = FALSE], ref_dist[1:3, 2, drop = FALSE])
+  expect_equal(test_distances[1:3, 2, drop = TRUE], ref_dist[1:3, 2, drop = TRUE])
+
+  expect_equal(test_distances[3, 4:5], ref_dist[3, 4:5])
+  expect_equal(test_distances[3, 4:5, drop = FALSE], ref_dist[3, 4:5, drop = FALSE])
+  expect_equal(test_distances[3, 4:5, drop = TRUE], ref_dist[3, 4:5, drop = TRUE])
+
+  expect_equal(test_distances[2, 2], ref_dist[2, 2])
+  expect_equal(test_distances[2, 2, drop = FALSE], ref_dist[2, 2, drop = FALSE])
+  expect_equal(test_distances[2, 2, drop = TRUE], ref_dist[2, 2, drop = TRUE])
+
+  expect_equal(test_distances[3, 5], ref_dist[3, 5])
+  expect_equal(test_distances[3, 5, drop = FALSE], ref_dist[3, 5, drop = FALSE])
+  expect_equal(test_distances[3, 5, drop = TRUE], ref_dist[3, 5, drop = TRUE])
+})
+
+
+# ==============================================================================
 # as.matrix.distances
 # ==============================================================================
 
@@ -171,14 +266,14 @@ test_that("`print.distances` prints correctly", {
   expect_warning(
     expect_output(
       print.distances(distances(matrix(as.numeric(1:100), ncol = 2))),
-      "0.000000  1.414214  2.828427", fixed = TRUE
+      "38.98718  29.46184  19.79899", fixed = TRUE
     ),
     regexp = "contains too many data points, showing the first 20 out of the total 50."
   )
   expect_warning(
     expect_output(
       print.distances(distances(matrix(as.numeric(1:100), ncol = 2))),
-      "8.485281  7.071068  5.656854", fixed = TRUE
+      "118.27088 110.05453 101.68579", fixed = TRUE
     ),
     regexp = "contains too many data points, showing the first 20 out of the total 50."
   )

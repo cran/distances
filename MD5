@@ -1,11 +1,11 @@
-a09b045bd8d4ca6f74a173bface12165 *DESCRIPTION
-f8b09c23c58c53c72ef116515e5c77be *NAMESPACE
-f5c5e0afd893961da5bdb2fc8968ae03 *NEWS.md
+f13e29b8ee61b2d8ee71e6974ef958df *DESCRIPTION
+53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
+a3db9c558a37adef40eb82e553f4f8af *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
 d7f51a803d9c48621fab696ab920bb90 *R/distances.R
 4807997af8cb85df688ae4429daef17f *R/input_check.R
-8ab8dd56ab0bb2662dfd564e3edc181e *R/methods.R
+1b335efc7b46e0211f663868175b62b5 *R/methods.R
 36386f1cedd00880d6e257c7bf327679 *R/search.R
 de295f89490fa93333f8fe9cc172a1e9 *README.md
 7f0e5e4b9959f9d38d57f8286678f3aa *inst/include/distancesAPI.h
@@ -26,7 +26,7 @@ b768791ab95be2cd71dbdc064eb0b3a0 *src/get_dists.h
 62ae2edb74c1b54875897efb5faff0f2 *src/internal.h
 28048af675ad1c475b5329d58d45ca7c *src/libann/Copyright.txt
 79f70597d0617937039107e5a98033ee *src/libann/License.txt
-fb8e4f2571e28ad7aa71f96d6e7ca2d5 *src/libann/Makefile
+5cfecef3711fdd1cb54a432e51ac615d *src/libann/Makefile
 4ee849ea58de7580379c3bbffaec0ec1 *src/libann/include/ANN/ANN.h
 01e516b35b438e720b5dcf2763c4ab06 *src/libann/include/ANN/ANNperf.h
 02390a8bf15826c45a3828a73c017b47 *src/libann/include/ANN/ANNx.h
@@ -65,5 +65,5 @@ a5a40a1c9b34fcc5564ec8ef4ead8e9b *src/utils.c
 c8265796abd3dee65c5b0e915c2de368 *tests/testthat/test_distances.R
 56331bfe9372e1c45b071ed2585e719a *tests/testthat/test_func_input_check.R
 e0efdfc8eb9381e3daa69b35c6d0efc5 *tests/testthat/test_input_check.R
-22c470b4e2837a6490add3706bad07fa *tests/testthat/test_methods.R
+a9cf0f08beb712831f32b5de97390ed1 *tests/testthat/test_methods.R
 f7c43ac2587ea1347d505b6a4f5cb065 *tests/testthat/test_search.R
