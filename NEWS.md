@@ -1,3 +1,8 @@
+# distances 0.1.4
+
+* Update R dependency
+
+
 # distances 0.1.3
 
   * Adds extract methods []

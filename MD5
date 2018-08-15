@@ -1,9 +1,9 @@
-f13e29b8ee61b2d8ee71e6974ef958df *DESCRIPTION
+388bd52f800c630ef95956b6b70e1736 *DESCRIPTION
 53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
-a3db9c558a37adef40eb82e553f4f8af *NEWS.md
+ebedafa748943d0346dafc7f073e04ef *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
-d7f51a803d9c48621fab696ab920bb90 *R/distances.R
+969a680e659b04fdb256fbe4f93e7378 *R/distances.R
 4807997af8cb85df688ae4429daef17f *R/input_check.R
 1b335efc7b46e0211f663868175b62b5 *R/methods.R
 36386f1cedd00880d6e257c7bf327679 *R/search.R
@@ -12,7 +12,7 @@ de295f89490fa93333f8fe9cc172a1e9 *README.md
 1298f68b3d3bc24f09080be158bce8a9 *man/distance_columns.Rd
 5817f6a0a130d4b111b95d7cbcc61d2e *man/distance_matrix.Rd
 82140d77cebfeed518b7781896f8a408 *man/distances-package.Rd
-8aa9862103b6c463207b7b379bc14715 *man/distances.Rd
+ae70dc56253819108bde734ccf4280a6 *man/distances.Rd
 57bd44e165f5eefa63dda8317ef45bd1 *man/is.distances.Rd
 01a4248bd9914e2263ac1df46ebb6ba2 *man/max_distance_search.Rd
 e07ab57937e69b2c3e326b7578db5b31 *man/nearest_neighbor_search.Rd
@@ -26,7 +26,7 @@ b768791ab95be2cd71dbdc064eb0b3a0 *src/get_dists.h
 62ae2edb74c1b54875897efb5faff0f2 *src/internal.h
 28048af675ad1c475b5329d58d45ca7c *src/libann/Copyright.txt
 79f70597d0617937039107e5a98033ee *src/libann/License.txt
-5cfecef3711fdd1cb54a432e51ac615d *src/libann/Makefile
+55495d40fd0a5aa70ae77dc209659938 *src/libann/Makefile
 4ee849ea58de7580379c3bbffaec0ec1 *src/libann/include/ANN/ANN.h
 01e516b35b438e720b5dcf2763c4ab06 *src/libann/include/ANN/ANNperf.h
 02390a8bf15826c45a3828a73c017b47 *src/libann/include/ANN/ANNx.h
