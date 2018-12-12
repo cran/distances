@@ -1,6 +1,6 @@
-bccbd6b66c7b59ab8a619e3dc536c2a2 *DESCRIPTION
+030c1f8baf7544c76743a8604a403d31 *DESCRIPTION
 53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
-d2a46cd8387685b6722e464f745cb378 *NEWS.md
+cce9f8cf983057bf54d1b207052893e4 *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
 969a680e659b04fdb256fbe4f93e7378 *R/distances.R
@@ -26,7 +26,7 @@ b768791ab95be2cd71dbdc064eb0b3a0 *src/get_dists.h
 62ae2edb74c1b54875897efb5faff0f2 *src/internal.h
 28048af675ad1c475b5329d58d45ca7c *src/libann/Copyright.txt
 79f70597d0617937039107e5a98033ee *src/libann/License.txt
-1e6664e5c3d9c45766baba20c73c58f2 *src/libann/Makefile
+12744aadc17539b0282fa744d5e84ef7 *src/libann/Makefile
 4ee849ea58de7580379c3bbffaec0ec1 *src/libann/include/ANN/ANN.h
 01e516b35b438e720b5dcf2763c4ab06 *src/libann/include/ANN/ANNperf.h
 02390a8bf15826c45a3828a73c017b47 *src/libann/include/ANN/ANNx.h
