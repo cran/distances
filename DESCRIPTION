@@ -1,7 +1,7 @@
 Package: distances
 Type: Package
 Title: Tools for Distance Metrics
-Version: 0.1.7.1
+Version: 0.1.7.2
 Date: 2019-03-18
 Authors@R: c(person("Fredrik", "Savje", email = "fredrik.savje@yale.edu", role = c("aut", "cre")))
 Description: Provides tools for constructing, manipulating and using distance metrics.
@@ -16,11 +16,11 @@ URL: https://github.com/fsavje/distances
 BugReports: https://github.com/fsavje/distances/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.1
-Packaged: 2019-09-01 15:07:17 UTC; ripley
+Packaged: 2019-09-01 18:56:26 UTC; ripley
 Author: Fredrik Savje [aut, cre]
 Maintainer: ORPHANED
 Repository: CRAN
-Date/Publication: 2019-09-01 15:20:59 UTC
+Date/Publication: 2019-09-01 19:01:11 UTC
 X-CRAN-Original-Maintainer: Fredrik Savje <fredrik.savje@yale.edu>
 X-CRAN-Comment: Orphaned on 2019-09-01 as deprecated use of C++98 was
         not corrected in time.
