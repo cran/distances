@@ -1,4 +1,4 @@
-5b095e28f132c2322ae8f66969d0bbd7 *DESCRIPTION
+67828423e2a6a8eff65f7bb3fb34cfbb *DESCRIPTION
 53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
 04faa12b6ea6c9eeeb3fd3eb78d347fe *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
@@ -16,7 +16,7 @@ ae70dc56253819108bde734ccf4280a6 *man/distances.Rd
 57bd44e165f5eefa63dda8317ef45bd1 *man/is.distances.Rd
 5704b490df7f38f7520e9684f84d5ed4 *man/max_distance_search.Rd
 e07ab57937e69b2c3e326b7578db5b31 *man/nearest_neighbor_search.Rd
-55afed6524a8646e2c3fcd0f15a517fb *src/Makevars
+a1aa5a97d2b7a47f56be80ff37e0669b *src/Makevars
 ceaa9fc2f1700bde19d8c1965adeec01 *src/distances-init.c
 616e54fe29a45f33991cd0b1fef346b2 *src/error.c
 796e3b9ed80f30bf3a2bf2d2e28a6a49 *src/error.h
