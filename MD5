@@ -1,6 +1,6 @@
-16f6f03b9ac98b5fa2b24043175e6f8f *DESCRIPTION
+f924fc9b0d1ea3bf96d7a893c6deb975 *DESCRIPTION
 53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
-04faa12b6ea6c9eeeb3fd3eb78d347fe *NEWS.md
+2085b600b9158f2c49fb987dcc3b1460 *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
 969a680e659b04fdb256fbe4f93e7378 *R/distances.R
@@ -64,6 +64,6 @@ a5a40a1c9b34fcc5564ec8ef4ead8e9b *src/utils.c
 5eb4a22c7a7cb38184a7f722a25fb0c0 *tests/testthat/test_distance_matrix.R
 c8265796abd3dee65c5b0e915c2de368 *tests/testthat/test_distances.R
 56331bfe9372e1c45b071ed2585e719a *tests/testthat/test_func_input_check.R
-7d6c1c587a1abd01150336c8bb86f657 *tests/testthat/test_input_check.R
+940d98f1b71b787385212a247d8d3158 *tests/testthat/test_input_check.R
 a9cf0f08beb712831f32b5de97390ed1 *tests/testthat/test_methods.R
 f7c43ac2587ea1347d505b6a4f5cb065 *tests/testthat/test_search.R
