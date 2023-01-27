@@ -1,3 +1,11 @@
+# distances devel
+
+
+# distances 0.1.9
+
+  * Switch from sprintf() to snprintf() in C code.
+
+
 # distances 0.1.8
 
   * Change to C++17 compiler for ANN.
