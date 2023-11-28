@@ -1,6 +1,6 @@
-66cc642a0754e9f51e73aa38b14ed2a8 *DESCRIPTION
+8a5c8df29a571ed6a37b6cc257d29ee2 *DESCRIPTION
 53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
-0b8ad70b62a3bfd5677650593a2073f9 *NEWS.md
+8fb0900cc1d05616ab3474a6d42a2ee5 *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
 969a680e659b04fdb256fbe4f93e7378 *R/distances.R
@@ -18,7 +18,7 @@ f12958e5ca71888c37e8338820648837 *man/distances.Rd
 e254d32f4b91945a15d51023c4891586 *man/nearest_neighbor_search.Rd
 a1aa5a97d2b7a47f56be80ff37e0669b *src/Makevars
 ceaa9fc2f1700bde19d8c1965adeec01 *src/distances-init.c
-616e54fe29a45f33991cd0b1fef346b2 *src/error.c
+68b7b2f0c9148a3a7a89c92af6e5e2af *src/error.c
 796e3b9ed80f30bf3a2bf2d2e28a6a49 *src/error.h
 9eb7f2f50599e64dbf2cea035547c24e *src/get_dists.c
 b768791ab95be2cd71dbdc064eb0b3a0 *src/get_dists.h
