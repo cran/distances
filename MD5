@@ -1,6 +1,6 @@
-8a5c8df29a571ed6a37b6cc257d29ee2 *DESCRIPTION
+3e1db5eb92b4ad511c8296d8dec62aff *DESCRIPTION
 53bedf8191cac10f9a2d6e3ddec821bf *NAMESPACE
-8fb0900cc1d05616ab3474a6d42a2ee5 *NEWS.md
+3c11e33af841d1355bee8d85fe863b3f *NEWS.md
 2ae66de7825b1f9a65f56210126df3b6 *R/distance_matrix.R
 a55ddf065466c01a9e25a0920563613b *R/distances-package.R
 969a680e659b04fdb256fbe4f93e7378 *R/distances.R
@@ -57,7 +57,7 @@ c57d5df3e3b47a47c6776fcf57556919 *src/libann/src/pr_queue_k.h
 d060beccb78a12b0f91973d7c0d07b64 *src/max_dists.h
 f746ad09dc13e7e87f083a9f2c71b0e2 *src/nn_search.c
 6885545bcdef5ec65a0319bfda57e3f3 *src/nn_search.h
-503f452ebc2477bf0d79450c8f54322a *src/nn_search_ann.cpp
+21bac7b9279ccb704f8bf88da1c4c9e6 *src/nn_search_ann.cpp
 a5a40a1c9b34fcc5564ec8ef4ead8e9b *src/utils.c
 669959afbbddd2f34f5b41e7efa8b111 *src/utils.h
 17c75ee7c3d277d18c57231d6a79a3d4 *tests/testthat.R

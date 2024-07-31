@@ -1,4 +1,7 @@
-# distances devel
+# distances 0.1.11
+
+  * Update email address.
+
 
 # distances 0.1.10
 
